@@ -1,0 +1,369 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* topnavbar */
+#phone{
+    color:orange;
+    margin-right: 40px;
+}
+i a{
+    color: white;
+    margin-left: 10px;
+   text-decoration: none;
+   font-weight: bold;
+}
+i a:hover{
+    color:darkgray;
+}
+#admisiion{
+    text-transform: uppercase;
+}
+#topnavbar{
+    background-color: #49688e
+}
+@media only screen and (max-width: 600px) {
+    i a{
+        font-weight: normal;
+        font-size: 10px;
+    }
+  }
+/* logosection */
+.mylogo{
+    margin-top: 20px;
+}
+.logotext h2{
+    margin-top: 30px;
+    margin-left:-70px;
+    color:#294a70;
+    font-weight: bold;
+}
+.logotext p{
+    margin-left:-70px;
+}
+
+@media only screen and (max-width: 600px) {
+    .mylogo {
+    height: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .logotext h2  {
+        margin-left:0px;
+    text-align: center;
+    
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .logotext p  {
+    margin-left:0px;
+    text-align: center;
+    
+    }
+  }
+/* mainnavigationsection */
+#mainnavbar{
+    background-color: #49688e;
+}
+
+.addme
+{
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 500;
+  box-shadow: 0 0 8px 0 #1b0202;
+}
+
+li a {
+  font-weight: bold;
+  text-align: center;
+  margin-right: 40px;
+  width: 100%;
+}
+.nav-item:hover{
+    background-color:#f4a024;
+}
+#active{
+    background-color: #f4a024;
+    width: 100%;
+}
+.navhr{
+    border:2px solid springgreen; 
+    margin-top: -0px;
+}
+@media only scree and (max-width:600px)
+{
+    nav{
+        border-collapse: collapse;
+    }
+}
+/* crouselsection */
+.carousel-caption {
+    top: 40%;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    height: 70px;
+    width: 500px;
+  }
+  .carousel-caption a h3{
+      top: 40;
+      color: #49688e;
+      text-decoration: none;
+
+  }
+  @media only screen and (max-width: 600px) {
+    .carousel-caption{
+        top: 40%;
+        background-color: whitesmoke;
+        opacity: 0.8;
+        height: 40px;
+        width: 200px;
+
+    
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .carousel-caption a h3{
+        color: red;
+        font-size: 2vh;
+      text-decoration: none;
+
+    }
+  }
+  .carousel-caption a{
+    text-decoration: none;
+  }
+.crouselsection{
+    margin-top: -15px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 60px;
+    width: 60px;
+    /* outline: black; */
+    background-color:springgreen;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+}
+
+
+/* blogsection */
+@media only screen and (max-width:600px){
+    #managecard{
+        margin-top:30px;
+    }
+}
+#mycard{
+    height: 110px;
+    background-color: #f3f3f3;
+}
+@media only screen and (max-width:320px)
+{
+    #mycard{
+        height: auto;
+    }
+}
+#news{
+    color:  #49688e;
+    font-size: 20px;
+    margin-left: 15px;
+}
+#event{
+    color:  #49688e;
+    font-size: 20px;
+    margin-right: 15px;
+}
+#calen{
+    color:  #49688e;
+    margin-right: 30px;
+}
+#cale{
+    color:  #49688e;
+    margin-right: 10px;
+    text-decoration: none;
+}
+#redmore{
+    color:#49688e;
+    margin-bottom:-10px;
+    text-decoration: none;
+}
+.headone{
+    background-color: #f3f3f3;
+    width: 100%;
+    color: #49688e;
+}
+@media only screen and (max-width: 600px) {
+    #wholeevent{
+        margin-top: 20px;
+    }
+}
+/* nextsection aboutusandlogo */
+.aboutus{
+    background-color: rgb(54, 54, 179);
+    color: white;
+    height: 300px;
+}
+@media only screen and (max-width: 600px) {
+    .aboutus{
+        height: auto;
+    }
+    }
+.aboutus h4 {
+text-transform: uppercase;
+}
+#textmy{
+   text-align: justify;
+   padding: 10px;
+}
+#mybtn{
+    margin-left: 30px;
+}
+@media only screen and (max-width: 600px) {
+    #myimage {
+        height: 100px;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+/* schoolfacilities */
+#mycards{
+    background-color: #f3f3f3;
+}
+.card-body h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(55, 55, 105);
+}
+.card-body p{
+    color:black;
+    font-weight: 600;
+}
+@media only screen and (max-width: 600px) {
+.schoolfacilities{
+    margin-top: 30px;
+}
+}
+/* callsection */
+.callaction{
+    background-color: rgba(0, 0, 255, 0.623)
+}
+#mylooo{
+height: 140px;
+display: block;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+.myhediii h4{
+    font-weight: bold;
+    margin-top: 30px;
+}
+#joinbtn{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+/* schoolgaellery */
+.schoolgallery h3{
+    color:#6ec1e4;
+    font-weight: bold;
+    text-align: center;
+}
+.evenetschool h5{
+    margin-left: 150px;
+}
+#aa{
+    color:red;
+}
+#demo{
+    color: springgreen;
+}
+#cc{
+    color: orange;
+}
+#bb{
+    color: plum;
+}
+
+/* schoollocation */
+.footersection{
+    background-color: #49688e;
+}
+.textschool h2{
+    color:#49688e;
+    font-weight: bold;
+}
+.footerhead h4{
+    color: wheat;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.footertext p{
+    color: white;
+    font-weight: 400;
+    text-align: normal;
+    font-size: 13px;
+    font-weight: bold;
+}
+.footeritem i{
+    color: orange;
+}
+.footeritem i a{
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    font-weight: bold;
+}
+.footeritem{
+    margin-top: 10px;
+}
+.footerhr{
+    border: 4px solid springgreen;
+}
+#hori {
+    border:none;
+    border-top:1px dashed #f00;
+    color:red;
+    background-color:red;
+    height:1px;
+    width:50%;
+  }
+  .contactitem p{
+      color:white;
+      font-size: 13px;
+      font-weight: bold;
+      
+  }
+  .vl {
+    border-left: 3px solid white;
+    height: 220px;
+    margin-top: -140px;
+    margin-left: -10px;
+  }
+  .v2 {
+    border-left: 3px solid white;
+    height: 220px;
+    margin-top: -184px;
+    margin-left: -50px;
+  }
+
+  /* lastfooter */
+  footer{
+      background-color: rgba(5, 5, 110, 0.555);
+      margin-top: 40px;
+  }
+  .footertext{
+      color: white;
+      text-align: center;
+     
+  }
+  .footertext p {
+    text-align: center;
+   padding: 10px;
+  }
+
+  
+
+  
